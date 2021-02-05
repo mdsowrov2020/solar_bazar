@@ -404,6 +404,35 @@ ul.nav li a:hover {
 }
 
 @media (max-width: 576px) {
+  .mobile_user ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 8px;
+  }
+  .mobile_user {
+    width: 100%;
+    margin: auto;
+  }
+  .my-account a {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #f5363e;
+    text-align: center !important;
+    color: #fff;
+  }
+  .wishlist a {
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #f5363e;
+    text-align: center !important;
+    color: #fff;
+  }
   .solar_pan h5 {
     font-size: 14px;
   }

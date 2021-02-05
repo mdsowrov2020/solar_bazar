@@ -7,7 +7,6 @@ function toggleCart() {
 $('.new_slider').slick({
   infinite: true,
   slidesToShow: 5,
-  centerMode: true,
   prevArrow:
     '<span class="prev_arrow_latest"><i class="fa fa-chevron-left" aria-hidden="true"></i></span>',
   nextArrow:

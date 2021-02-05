@@ -402,6 +402,7 @@ ul.nav li a:hover {
 .top_header_new {
   display: block !important;
 }
+
 @media (max-width: 576px) {
   .solar_pan h5 {
     font-size: 14px;

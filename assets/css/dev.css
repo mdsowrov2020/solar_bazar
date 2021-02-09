@@ -1,0 +1,17 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+.panel{
+    /* border: 1px solid red; */
+    padding: 10px;
+}
+
+.inner-panel {
+    padding: 10px;
+}
+
+button{
+    background-color: red;
+    padding: 20px;
+}

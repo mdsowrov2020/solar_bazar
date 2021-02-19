@@ -537,3 +537,9 @@ ul.nav li a:hover {
     border-radius: 2px !important;
   }
 }
+
+@media (min-width: 1025px) {
+  .sticky-wrapper .techmarket-sticky-wrap.stuck > .row {
+    padding: 0px 0 15px !important;
+  }
+}

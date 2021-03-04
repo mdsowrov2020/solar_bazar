@@ -42,3 +42,15 @@ $('.new_slider').slick({
     // instead of a settings object
   ],
 });
+
+// =================================== Hide-Show on scroll
+$(window).scroll(function () {
+  var scrollto = $(window).scrollTop();
+
+  if (scrollto > 100) {
+    $('.site-branding').css('display', 'none');
+    $('.custom_nav').css('padding', '20px 0');
+  } else {
+    $('.site-branding').css('display', 'block');
+  }
+});

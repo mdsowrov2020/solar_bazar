@@ -43,14 +43,23 @@ $('.new_slider').slick({
   ],
 });
 
-// =================================== Hide-Show on scroll
+// =================================== Hide-Show on scroll .site-header.header-v1 .primary-navigation
 $(window).scroll(function () {
   var scrollto = $(window).scrollTop();
 
   if (scrollto > 100) {
-    $('.site-branding').css('display', 'none');
-    $('.custom_nav').css('padding', '20px 0');
+    $('.site-branding').css({ display: 'none' });
+    $('.custom_nav').css({
+      padding: '20px 0',
+      flex: '0 0 100%',
+      'max-width': '100%',
+    });
   } else {
-    $('.site-branding').css('display', 'block');
+    $('.site-branding').css({ display: 'block' });
+    $('.custom_nav').css({
+      padding: '20px 0',
+      flex: '0 0 75%',
+      'max-width': '75%',
+    });
   }
 });

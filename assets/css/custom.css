@@ -543,3 +543,59 @@ ul.nav li a:hover {
     padding: 0px 0 15px !important;
   }
 }
+
+/* ================================================= */
+/* .nav-title.sidebar_cat {
+  position: relative !important;
+  background-color: brown;
+  display: inline-block !important;
+} */
+
+.create_sub_cat {
+  position: relative !important;
+  /* width: 65% !important; */
+}
+.create_sub_cat li {
+  transition: all 0.3s ease;
+  width: auto !important;
+}
+/* .create_sub_cat li a {
+  display: inline-block !important;
+  position: relative !important;
+} */
+.create_sub_cat li:hover {
+  background-color: rgba(250, 250, 250, 0.5);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  padding-left: 8px !important;
+  border-radius: 8px;
+}
+
+/* .dropdown-menu:hover {
+  width: auto !important;
+} */
+.sidebar_cat_v2 {
+  position: absolute;
+  top: 0;
+  /* transform: translateY(-50%); */
+  right: -5px;
+  background-color: rgba(250, 250, 250, 1);
+  backdrop-filter: blur(10px) !important;
+  border-radius: 8px;
+  padding: 10px;
+  display: none;
+  /* width: 350px; */
+}
+
+.sidebar_cat:hover .sidebar_cat_v2 {
+  display: block;
+}
+
+/* .departments-menu .yamm-tfw .dropdown-menu > li {
+  width: 50% !important;
+  background-color: tomato !important;
+} */
+
+.departments-menu .yamm-tfw .dropdown-menu {
+  height: auto !important;
+}

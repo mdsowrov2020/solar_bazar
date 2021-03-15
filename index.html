@@ -565,6 +565,7 @@
             <!-- /.row -->
             <div class="techmarket-sticky-wrap">
               <div class="row">
+                   <!-- Mobile menu part Start from antu -->
                 <nav
                   id="handheld-navigation"
                   class="handheld-navigation"
@@ -575,17 +576,109 @@
                     <span>Menu</span>
                   </button>
                   <div class="handheld-navigation-menu">
-                    <span class="tmhm-close">Close</span>
+                    <span class="tmhm-close"></span>
                     <div class="mobile_menu_new">
-                      <button type="button" class="collapsible">All Department</button>
+                      <button type="button" class="mobile_dept"> All Department <i class="fa fa-chevron-down mob_top_icn" aria-hidden="true"></i></button>
+             
                         <div class="content">
-                          <p>Lorem ipsum...</p>
+                       <div class="mobile_dept_main">
+                        <div id="accordion">
+                          <div class="card">
+                            <div class="card-header" id="headingOne">
+                              <h5 class="mb-0">
+                                <button class="btn  mob_collapse_btn" data-toggle="collapse" data-target="#products" aria-expanded="true" aria-controls="collapseOne">
+                                Products
+                                </button>
+                              </h5>
+                            </div>
+                        
+                            <div id="products" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                              <div class="card-body sub_cat_body">
+                                <div class="card">
+                                  <div class="card-header mob_header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                      <button class="btn collapsed mob_collapse_btn" data-toggle="collapse" data-target="#subcat" >
+                                        Solar Inverter
+                                      </button>
+                                    </h5>
+                                  </div>
+                                  <div id="subcat" class="collapse" >
+                                    <div class="card-body sub_cat_body_content">
+                                      <ul>
+                                        <li><a href="javascript:void(0)">Solar Inverter one</a></li>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="card">
+                                  <div class="card-header mob_header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                      <button class="btn collapsed mob_collapse_btn" data-toggle="collapse" data-target="#fan" >
+                                        Solar Fan
+                                      </button>
+                                    </h5>
+                                  </div>
+                                  <div id="fan" class="collapse" >
+                                    <div class="card-body sub_cat_body_content">
+                                      <ul>
+                                        <li><a href="javascript:void(0)">Delux Fan</a></li>
+                                        <li><a href="javascript:void(0)"  data-toggle="collapse" data-target="#childsub" >Classic Fan</a>
+                                          <div id="childsub" class="collapse" >
+                                            <div class="card-body sub_cat_body_content">
+                                              <ul>
+                                                <li><a href="javascript:void(0)">Classic fan Child</a></li>
+                                                </li>
+                                              </ul>
+                                            </div>
+                                          </div>
+                                        </li>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header mob_header" id="headingTwo">
+                              <h5 class="mb-0">
+                                <button class="btn collapsed mob_collapse_btn" data-toggle="collapse" data-target="#system" >
+                                System
+                                </button>
+                              </h5>
+                            </div>
+                            <div id="system" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                              <div class="card-body sub_cat_body">
+                                  <p>System</p>
+                                  </div>
+                            </div>
+                          </div>
+                        </div>
+                    
+                       </div>
+                       
                         </div>
                     </div>
-                    
+                    <!-- Mobile nav part start -->
+                    <div class="mobile_nav_antu">
+                      <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Become Vendor</a></li>
+                        <li><a href="">Become Agent</a></li>
+                        <li><a href="">Track Order</a></li>
+                        <li><a href="">Store Location</a></li>
+                        <li><a href="">Contact Us</a></li>
+                        <li><a href="">Account</a></li>
+                        <li><a href="">Login</a></li>
+                      </ul>
+                    </div>
                   </div>
+               
                   <!-- .handheld-navigation-menu -->
                 </nav>
+                   <!-- Mobile menu part end from antu -->
                 <!-- .handheld-navigation -->
                 <div class="site-search">
                   <div class="widget woocommerce widget_product_search">

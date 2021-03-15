@@ -63,3 +63,62 @@ $(window).scroll(function () {
     });
   }
 });
+
+// =====================================
+
+var coll = document.getElementsByClassName('mobile_dept');
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener('click', function () {
+    this.classList.toggle('mobile_active');
+    var content = this.nextElementSibling;
+    if (content.style.display === 'block') {
+      content.style.display = 'none';
+    } else {
+      content.style.display = 'block';
+    }
+  });
+}
+
+// ================================== mobile sub category toggle start
+
+// const mobile_sub_cat_toggle = document.querySelector('.mob_cat_toggle');
+
+// mobile_sub_cat_toggle.addEventListener('click', (e) => {
+//   document
+//     .querySelector('.mobile_cat_main')
+//     .classList.toggle('mobile_cat_main_block');
+
+//   document
+//     .querySelector('.mobile_sub_cat')
+//     .classList.toggle('mobile_sub_cat_block');
+// });
+
+const mob_cat_inner = document.querySelector('.mob_sub_cat_toggle');
+
+mob_cat_inner.addEventListener('click', (e) => {
+  document
+    .querySelector('.mobile_sub_cat_list')
+    .classList.toggle('mobile_sub_cat_block');
+});
+
+const mob_child_cat = document.querySelector('.mob_child_cat_toggle');
+
+mob_child_cat.addEventListener('click', (e) => {
+  document
+    .querySelector('.mobile_child_sub_cat')
+    .classList.toggle('mobile_child_sub_cat_block');
+});
+
+function mobToggleOne() {
+  var element = document.getElementById('mobToggler');
+  element.classList.toggle('mobile_cat_main_block');
+}
+
+function mobToggleOneTwo() {
+  var element = document.getElementById('mobToggler');
+  element.classList.toggle('mobile_cat_main_block');
+}
+
+// =====================

@@ -14899,3 +14899,120 @@ class="section-3-2-3-product-cards-tabs-with-featured-product stretch-full-width
 
   <!-- .handheld-header-links -->
 </div>
+
+css?family
+
+.mobile_menu_new{
+  padding: 0 2px;
+}
+
+
+/* mobile collapse */
+
+.mobile_dept {
+  position: relative;
+  background-color: rgb(237, 227, 227) !important;
+  color: #444;
+  cursor: pointer;
+  padding:6px 5px !important;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none !important;
+  box-shadow: none !important;
+  font-size: 15px;
+}
+.mob_top_icn{
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 12px;
+  color: rgb(165, 162, 162);
+}
+
+.mobile_active, .mobile_dept:hover {
+  background-color: #ccc;
+}
+
+
+.content {
+  /* padding: 0 18px; */
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.mobile_dept:after {
+  position: absolute;
+  content: '\f078' !important;
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+  z-index: 2000;
+}
+
+.mobile_active:after {
+  content: "\f078" !important;
+  font-family: FontAwesome !important; 
+}
+
+.mobile_dept_main{
+  background-color: rgb(247, 240, 240);
+}
+
+.mobile_dept_main ul li{
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 2px !important;
+  border-bottom: 1px solid rgb(233, 229, 229);
+  margin: 2px 0 !important;
+}
+.mobile_dept_main ul li:last-child{
+  border-bottom: none !important;
+}
+
+.handheld-navigation ul li a{
+  padding: 5px 3px !important;
+}
+
+.mobile_cat_main{
+  /* background-color: aqua; */
+  display: none;
+}
+
+.mobile_cat_main_block{
+  display: block;
+}
+
+.mobile_sub_cat_list{
+  /* background-color: blueviolet; */
+  display: none;
+}
+
+.mobile_sub_cat_block{
+  display: block;
+}
+
+.mob_cat_toggle{
+  position: relative;
+}
+
+.mob_child_cat_top_icn,
+.mob_cat_top_icn{
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgb(165, 162, 162);
+}
+.mob_child_cat_toggle{
+  position: relative;
+}
+.mobile_child_sub_cat{
+  display: none;
+}
+
+.mobile_child_sub_cat_block{
+  display: block;
+}
